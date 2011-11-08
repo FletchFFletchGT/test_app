@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Gametime:</b>
+  <%= @game.gametime %>
+</p>
+
+<p>
+  <b>List1:</b>
+  <%= @game.list1_id %>
+</p>
+
+<p>
+  <b>List2:</b>
+  <%= @game.list2_id %>
+</p>
+
+<p>
+  <b>Pending:</b>
+  <%= @game.pending %>
+</p>
+
+<p>
+  <b>Cancelled:</b>
+  <%= @game.cancelled %>
+</p>
+
+<p>
+  <b>Forfeited:</b>
+  <%= @game.forfeited %>
+</p>
+
+<p>
+  <b>Winner:</b>
+  <%= @game.winner_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>

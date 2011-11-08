@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  gametime: 2011-11-08 11:56:00
+  list1_id: 1
+  list2_id: 1
+  pending: false
+  cancelled: false
+  forfeited: false
+  winner_id: 1
+
+two:
+  gametime: 2011-11-08 11:56:00
+  list1_id: 1
+  list2_id: 1
+  pending: false
+  cancelled: false
+  forfeited: false
+  winner_id: 1
